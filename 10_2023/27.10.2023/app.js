@@ -42,19 +42,28 @@
 
 
 arr = [1, 2, 3, 4, 5, 6]
-console.log(arr)
-user = prompt('Введите куда добавить ')
-user_ans = prompt('Введите что добавить')
-
-empty_arr = []
-
-//empty_arr.push(arr[0])
-//arr.push(user_ans)
-
-arr[user] = user_ans
-
-
-console.log(arr)
+const arr2=[]
+const index=2
+const str="It step"
+for(let i=0;i<arr.length;i++){
+    arr2.push(arr[i])
+    if(i==index)
+        arr2.push(str)
+}
+console.log(arr2)
+//console.log(arr)
+//user = prompt('Введите куда добавить ')
+//user_ans = prompt('Введите что добавить')
+//
+//empty_arr = []
+//
+////empty_arr.push(arr[0])
+////arr.push(user_ans)
+//
+//arr[user] = user_ans
+//
+//
+//console.log(arr)
 
 //arr.splice(user, 0, user_ans)
 //console.log(arr)
